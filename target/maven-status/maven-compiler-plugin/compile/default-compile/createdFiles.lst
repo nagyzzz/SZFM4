@@ -1,0 +1,11 @@
+app\controller\FooldalController.class
+app\service\UserService.class
+app\controller\HallgatoController.class
+app\HallgatoiAdatbazisKezeloRendszer.class
+app\Main.class
+app\entity\User.class
+app\entitymanager\CustomEntityManager.class
+app\controller\HomeController.class
+app\controller\LeckekonyvController.class
+app\repository\UserRepository.class
+app\controller\TantargyakController.class

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.HomeController">
+
+    <TextField fx:id="usernameField" layoutX="207.0" layoutY="222.0" />
+    <PasswordField fx:id="passwordField" layoutX="521.0" layoutY="222.0" />
+    <Label fx:id="usernameLabel" layoutX="207.0" layoutY="192.0" text="Username" />
+    <Label layoutX="521.0" layoutY="192.0" text="Password" />
+    <Button fx:id="registerButton" layoutX="325.0" layoutY="372.0" mnemonicParsing="false" onAction="#register" text="Regisztrálás" />
+    <Button fx:id="loginButton" layoutX="486.0" layoutY="372.0" mnemonicParsing="false" onAction="#login" text="Belépés" />
+</AnchorPane>
